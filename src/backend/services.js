@@ -14,8 +14,9 @@ async function fetchGames() {
             "Content-Type": "text/plain"
         },
         body: `
-      fields name, first_release_date, rating;
-      limit 10;
+      fields name, first_release_date, rating, screenshots.*, cover.*;
+      where rating > 75;
+      limit 20;
     `
     });
 

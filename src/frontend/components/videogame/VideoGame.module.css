@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.cover {
+    align-self: center;
+    box-shadow: 5px 0 10px rgb(0, 0, 0);
+    height: 99%;
+}
+
+.description {
+    width: 100%;
+    min-width: 260px;
+    background: linear-gradient(120deg, rgba(0, 34, 68, 0.07) 0%, rgba(0, 34, 68, 0.58) 40%, rgba(0, 65, 133, 0.6) 100%);
+    padding-right: 10px;
+}
+
+.header {
+    font-size: 20px;
+    margin: 20px;
+    font-family: "Dubai Light", serif;
+}
